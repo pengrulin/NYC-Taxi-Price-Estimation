@@ -78,11 +78,13 @@ To set up your environment for running the analysis notebook (e.g., `NYC_Taxi_Pr
   Insights suggest that implementing a dynamic, network-connected meter system—capable of adjusting fares in real-time based on traffic, peak hours, and weather—could enhance operational efficiency and revenue optimization.
 
 ### Part 8: Reference
-- **Data & Methodologies:**  
-  - TLC Trip Record Data – Yellow Taxi Trip Records.
-  - Techniques for reading parquet format data and extracting time from datetime fields.
-  - Model evaluation metrics and hyperparameter tuning methods (Grid, Halving, Random, Bayesian).
-  - Tools and libraries for plotting overlapping line plots and resetting data indices.
+1. [Read parquet format data](https://www.nyc.gov/assets/tlc/downloads/pdf/working_parquet_format.pdf)
+2. [Extract time from datatime format](https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.hour.html)
+3. [Evaluate a model](https://zhuanlan.zhihu.com/p/624855556)
+4. [Install Bayes Search Library - skopt ](https://www.roseindia.net/answers/viewqa/pythonquestions/222078-ModuleNotFoundError-No-module-named-skopt.html)
+5. [Hyper parameter tuning methods](https://towardsdatascience.com/bayesian-optimization-for-hyperparameter-tuning-how-and-why-655b0ee0b399)
+6. [Overlapping line plots](https://blog.51cto.com/u_16175490/7440021)
+7. [Reset index](https://blog.enterprisedna.co/pandas-drop-index/)
 
 ## Usage
 To run this project:
